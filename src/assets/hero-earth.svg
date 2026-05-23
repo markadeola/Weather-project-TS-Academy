@@ -1,0 +1,40 @@
+<svg width="420" height="420" viewBox="0 0 420 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="oceanGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(210 210) rotate(90) scale(210)">
+      <stop offset="0%" stop-color="#BFEAFE"/>
+      <stop offset="45%" stop-color="#0EA5E9"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </radialGradient>
+    <radialGradient id="atmosphereGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(210 210) rotate(90) scale(236)">
+      <stop offset="0%" stop-color="#E0F2FE" stop-opacity="0.9"/>
+      <stop offset="55%" stop-color="#38BDF8" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="continentNorth" x1="146" y1="115" x2="286" y2="250" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4ADE80"/>
+      <stop offset="1" stop-color="#166534"/>
+    </linearGradient>
+    <linearGradient id="continentSouth" x1="132" y1="155" x2="278" y2="310" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#34D399"/>
+      <stop offset="1" stop-color="#052E16"/>
+    </linearGradient>
+    <linearGradient id="landHighlight" x1="165" y1="110" x2="270" y2="245" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D1FAE5" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#86EFAC" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="210" cy="210" r="200" fill="url(#oceanGlow)"/>
+  <circle cx="210" cy="210" r="224" fill="url(#atmosphereGlow)"/>
+
+  <path d="M150 136C168 111 208 105 249 118C282 129 301 153 300 182C299 214 281 238 249 257C219 274 179 278 150 263C126 251 116 225 121 196C126 167 136 149 150 136Z" fill="url(#continentNorth)"/>
+  <path d="M112 194C124 164 152 147 184 144C214 142 246 153 268 175C288 195 295 226 286 255C278 282 250 301 218 304C180 307 145 292 127 264C115 245 109 222 112 194Z" fill="url(#continentSouth)"/>
+  <path d="M145 140C172 124 209 116 241 126C268 134 288 152 292 176C296 204 278 233 250 248C223 263 184 264 156 252C135 243 120 223 120 199C120 178 130 160 145 140Z" fill="url(#landHighlight)"/>
+
+  <circle cx="285" cy="145" r="12" fill="#E0F2FE" fill-opacity="0.38"/>
+  <circle cx="105" cy="110" r="7" fill="#E0F2FE" fill-opacity="0.35"/>
+  <circle cx="130" cy="290" r="8" fill="#E0F2FE" fill-opacity="0.28"/>
+  <circle cx="315" cy="235" r="8" fill="#E0F2FE" fill-opacity="0.3"/>
+  <circle cx="240" cy="315" r="6" fill="#E0F2FE" fill-opacity="0.28"/>
+  <circle cx="300" cy="95" r="5" fill="#E0F2FE" fill-opacity="0.32"/>
+</svg>
