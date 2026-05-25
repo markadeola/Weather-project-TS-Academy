@@ -1,7 +1,14 @@
 import React from 'react';
 
 export default function Footer() {
-  const teamMembers = ['Amaka', 'Alex', 'Sarah', 'David'];
+  const teamMembers = ['Amaka', 'Alex', 'Sarah', 'David' , 
+    'Tajudeen Ahmad Olanrewaju',
+    'Porminas Freeman Walshak',
+    'Paul Udoekong',
+    'Odunsi Khadijah',
+    'Olamuye Modupe',
+    'Mark Adeola',
+    'Atolagbe Comfort Adeola',];
 
   return (
     <footer className="footer-dark" id="about">
@@ -14,6 +21,7 @@ export default function Footer() {
             interactive, data-driven experiences that bring the wonders of our solar
             system closer to everyone. Driven by curiosity and powered by code.
           </p>
+
           <div className="footer-badges">
             {teamMembers.map(member => (
               <span key={member} className="footer-badge-item">{member}</span>
